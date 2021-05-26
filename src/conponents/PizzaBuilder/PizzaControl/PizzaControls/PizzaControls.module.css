@@ -1,0 +1,10 @@
+.PizzaControls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.PizzaControls .ingredient div {
+  position: static;
+  margin: 0 .5rem;
+}

@@ -1,0 +1,18 @@
+.Drower .content{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    background-color: violet;
+   
+    transition: .3s ease-out;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+.open{
+  transform: translateX(0);
+}
+.close{
+    transform: translateX(-260px);
+}

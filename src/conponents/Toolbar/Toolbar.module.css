@@ -1,0 +1,12 @@
+.Toolbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+@media (max-width: 590px){
+    .Toolbar nav{
+        display: none;
+    }
+}
