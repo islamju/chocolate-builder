@@ -10,13 +10,13 @@ import yellowPepperBackground from "../../../images/mat.png";
 
 const PizzaIngredient = ({ type, fixed }) => {
   const types = {
-    salami: { backgroundImage: `url(${salamiBackground})`, width: "35px", height: "35px",
+    salami: { backgroundImage: `url(${salamiBackground})`, width: "40px", height: "40px",
   backgroundSize:'cover' },
-    tomato: { backgroundImage: `url(${tomatoBackground})`, width: "35px", height: "35px", backgroundSize:'cover'  },
-    blackOlive: { backgroundImage: `url(${blackOliveBackground})`, width: "35px", height: "35px", backgroundSize:'cover'  },
-    greenOlive: { backgroundImage: `url(${greenOliveBackground})`, width: "35px", height: "35px",backgroundSize:'cover'  },
-    redPepper: { backgroundImage: `url(${redPepperBackground})`, width: "35px", height: "35px", backgroundSize:'cover' },
-    yellowPepper: { backgroundImage: `url(${yellowPepperBackground})`, width: "35px", height: "35px", backgroundSize:'cover' },
+    tomato: { backgroundImage: `url(${tomatoBackground})`, width: "40px", height: "40px", backgroundSize:'cover'  },
+    blackOlive: { backgroundImage: `url(${blackOliveBackground})`, width: "40px", height: "40px", backgroundSize:'cover'  },
+    greenOlive: { backgroundImage: `url(${greenOliveBackground})`, width: "40pxpx", height: "40px",backgroundSize:'cover'  },
+    redPepper: { backgroundImage: `url(${redPepperBackground})`, width: "40px", height: "40px", backgroundSize:'cover' },
+    yellowPepper: { backgroundImage: `url(${yellowPepperBackground})`, width: "40px", height: "40px", backgroundSize:'cover' },
   };
 
   function getPosition(ingredientWidth) {
