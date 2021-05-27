@@ -34,8 +34,9 @@ const Auth = () => {
       {errorOutput}
       <form onSubmit={submitCallback}>
         <input type="email" name="email" placeholder="Email" required />
-        <input type="password" name="password" placeholder="Password" required />
         <button onClick={() => setMethod("signin")} disabled={loading}>Sign in</button>
+        <h1></h1>
+        <input type="password" name="password" placeholder="Password" required />
         <button onClick={() => setMethod("signup")} disabled={loading}>Sign up</button>
       </form>
       {redirectOutput}
