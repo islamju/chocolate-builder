@@ -7,8 +7,8 @@
   z-index: 1;
 
   font-size: 2rem;
-  color: white;
-  background-color: rgb(250, 11, 143);
+  color: rgb(250, 11, 143);
+  background-color:pink;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
   transition: transform .3s ease-out;
 }
