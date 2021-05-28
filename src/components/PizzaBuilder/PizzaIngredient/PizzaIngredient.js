@@ -19,10 +19,9 @@ const PizzaIngredient = ({ type, fixed }) => {
     yellowPepper: { backgroundImage: `url(${yellowPepperBackground})`, width: "40px", height: "40px", backgroundSize:'cover' },
   };
 
-  function getPosition(ingredientWidth) {
-    const pizzaDiameter = 380;
-    const pizzaRadius = pizzaDiameter / 2;
-    const ingredientRadius = parseInt(ingredientWidth) / 2;
+  //   const pizzaDiameter = 380;
+  //   const pizzaRadius = pizzaDiameter / 2;
+  //   const ingredientRadius = parseInt(ingredientWidth) / 2;
 
     // const ingredientTop = Math.round(Math.random() * pizzaDiameter);
     // const ingredientLeft = Math.round(Math.random() * pizzaDiameter);
@@ -37,8 +36,7 @@ const PizzaIngredient = ({ type, fixed }) => {
     //     left: ingredientLeft - ingredientRadius
     //   }
     //   : getPosition(ingredientWidth);
-  }
-
+  
   // Get random position for this ingredient.
   // if (!fixed) {
   //   const position = getPosition(types[type].width);
