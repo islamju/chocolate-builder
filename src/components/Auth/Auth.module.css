@@ -21,11 +21,13 @@ form > input{
 h1{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto;
     width: 350px;
     height: 130px;
     padding-left: 10px;
-   background-color: rgb(249, 235, 253);
-   background: -webkit-linear-gradient(305deg, pink, #fc80cc);
+   background-color: pink;
+   background: -webkit-linear-gradient(305deg, pink, pink);
    
    text-transform: uppercase;
     font-size: 60px;

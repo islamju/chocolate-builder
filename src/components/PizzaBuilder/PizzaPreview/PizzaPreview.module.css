@@ -1,5 +1,5 @@
 .PizzaPreview {
-  flex: 0 0 400px;
+  flex: 0 0 350px;
   display: flex;
   flex-wrap: wrap;
   /* margin-bottom: 1rem; */
@@ -7,7 +7,7 @@
 
 }
 .pizza {
-  width: 400px;
+  width: 350px;
   height: 100%;
   min-height: 300px;
   margin-right: 1rem;
@@ -21,8 +21,8 @@
   align-items: center;
 }
 .ingredients {
-  width: 380px;
-  height: 380px;
+  width: 330px;
+  height: 330px;
   /* border-radius: 100%; */
   position: relative;
   display: flex;
