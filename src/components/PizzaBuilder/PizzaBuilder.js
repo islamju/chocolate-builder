@@ -38,6 +38,8 @@ const PizzaBuilder = ({ history }) => {
     history.push('/checkout');
   }
 
+  console.log(ingredients)
+
   return (
     <div className={classes.PizzaBuilder}>
       <PizzaPreview
