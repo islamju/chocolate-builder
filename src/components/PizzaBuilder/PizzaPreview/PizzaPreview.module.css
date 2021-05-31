@@ -19,6 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1rem;
+  padding-top: 15px;
 }
 .ingredients {
   width: 330px;
@@ -35,7 +37,7 @@
   font-size: 1.5rem;
   color: rgb(250, 11, 143);
   font-weight: bold;
- 
+
 }
 .ingredients{
   display: flex;
